@@ -1,0 +1,132 @@
+@charset "utf-8";
+body {
+	line-height: 1.6;
+	font-size:15px;
+	background: url(../../image/pinkstripeC2.png) repeat;
+	margin: 0; padding: 0px;
+	color: #6e2433;
+}
+a { text-decoration: underline; }
+a:link { color:#37c; }
+a:visited { color:#93c;}
+a:active, a:link:hover , a:visited:hover { color:#f43; }
+h1 {
+  margin: 0; padding: 0;
+  text-align: right;
+}
+h2 { margin: -30px 0 15px 15px; padding: 0 }
+p.pict {
+  margin: 0 0 10px 0; padding:0;
+  text-align: center;
+}
+p.pict img {
+  margin: 0; padding:5px;
+  background: #dee;
+  border: solid 10px;
+  border-color : #eff #9bb #add #dff;
+}
+border: outset 10px #cef;
+div.comment{ 
+	margin: 0 0; 
+	padding: 0; 
+	background: url(../../image/pinkstripeC2.png) repeat;
+}
+p.comment-decoration {
+  margin: 0; padding: 0;
+  position: relative;
+  width:100%;
+}
+img.decoright {
+  position: absolute;
+  top: 0; right: 0;
+}
+div.comment dl {
+  background: #E9E9E9;
+  margin: 0px 0px; padding: 0.3em 1em;
+  line-height: 1.2;
+  margin-left:0em;
+  width:100%;
+}
+div.comment dt {
+  margin: 0; padding: 0.3em 0;
+  width: 80%;
+  color: #559;
+}
+div.comment dd {
+  margin: -2.1em 0 0 0; padding: 0.4em 0 0.4em 8em;
+  border-top: 0.1em solid #bbc;
+  width:92%;
+}
+div.comment .title { border-top: 0; }
+hr { display: none; }
+div.footer {
+  margin: 1em 0 0 0; padding: 0.5em;
+  border-top: 2px solid #bbc;
+}
+div.footer p { margin: 0; padding: 0; }
+div.footer address {
+  margin: -1.25em 0 0 0; padding: 0;
+  text-align: right;
+  font: 80% "Georgia","Times New Roman",serif ;
+}
+.inputAtr{
+	margin-top:-3px;
+	height:20px;
+	border:1px solid;
+    font-size:20px;
+    width:150px;
+}
+.btnLeft{
+	width:100px;
+    font-size:12px;
+	margin-top: 7px;
+	margin-left:10%;
+}
+.btnRight{
+	width:100px;
+    font-size:12px;
+    padding-left: 75%; 
+    margin-top: -32px;
+    padding-top:-9px;
+}
+.btnLayout{
+	float:right;
+	margin-right:50%;
+}
+.leftDiv{
+}
+.rightDiv{
+	margin-left:10px;
+}
+.korImg{
+    padding-top:-5px;
+	padding-left:5px;
+	padding-right:5px;
+	*height:17px;
+	*width:24px;
+	src:"../../image/kor.jpg"
+}
+.jpnImg{
+    padding-top:-5px;
+	padding-left:5px;
+	padding-right:5px;
+	*height:17px;
+	*width:24px;
+	src:"../../image/jpn.jpg"
+}
+.manImg{
+    padding-top:-5px;
+	padding-left:5px;
+	padding-right:5px;
+	height:36px;
+	width:30px;
+	src:"../../image/man.jpg"
+}
+.femaleImg{
+    padding-top:-5px;
+	padding-left:5px;
+	padding-right:5px;
+	height:36px;
+	width:30px;
+	src:"../../image/female.jpg"
+}
